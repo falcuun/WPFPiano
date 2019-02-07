@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PianoTry"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="900">
-    <Grid Margin="0,0,2,0">
+        Title="MainWindow" Height="420" Width="900">
+    <Grid Margin="0,0,2,0" Height="453" VerticalAlignment="Top">
         <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="419"/>
         <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="50,0,0,0" Height="419"/>
         <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="100,0,0,0" Height="419"/>
@@ -25,5 +25,18 @@
         <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="750,0,0,0" Height="419"/>
         <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="800,0,0,0" Height="419"/>
         <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="850,0,0,0" Height="419"/>
+        <Button Background="Black" HorizontalAlignment="Left" Margin="38,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
+        <Button Background="Black" HorizontalAlignment="Left" Margin="87,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
+        <Button Background="Black" HorizontalAlignment="Left" Margin="187,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
+        <Button Background="Black" HorizontalAlignment="Left" Margin="237,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
+        <Button Background="Black" HorizontalAlignment="Left" Margin="288,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
+        <Button Background="Black" HorizontalAlignment="Left" Margin="388,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
+        <Button Background="Black" HorizontalAlignment="Left" Margin="437,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
+        <Button Background="Black" HorizontalAlignment="Left" Margin="588,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
+        <Button Background="Black" HorizontalAlignment="Left" Margin="637,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
+        <Button Background="Black" HorizontalAlignment="Left" Margin="688,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
+        <Button Background="Black" HorizontalAlignment="Left" Margin="788,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
+        <Button Background="Black" HorizontalAlignment="Left" Margin="837,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
+        
     </Grid>
 </Window>

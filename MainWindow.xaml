@@ -5,38 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PianoTry"
         mc:Ignorable="d"
-        Title="MainWindow" Height="420" Width="900">
-    <Grid Margin="0,0,2,0" Height="453" VerticalAlignment="Top">
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="50,0,0,0" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="100,0,0,0" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="150,0,0,0" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="200,0,0,0" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="250,0,0,0" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="300,0,0,0" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="350,0,0,0" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="400,0,0,0" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="450,0,0,0" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="500,0,0,0" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="550,0,0,0" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="600,0,0,0" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="650,0,0,0" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="700,0,0,0" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="750,0,0,0" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="800,0,0,0" Height="419"/>
-        <Button Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="850,0,0,0" Height="419"/>
-        <Button Background="Black" HorizontalAlignment="Left" Margin="38,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
-        <Button Background="Black" HorizontalAlignment="Left" Margin="87,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
-        <Button Background="Black" HorizontalAlignment="Left" Margin="187,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
-        <Button Background="Black" HorizontalAlignment="Left" Margin="237,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
-        <Button Background="Black" HorizontalAlignment="Left" Margin="288,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
-        <Button Background="Black" HorizontalAlignment="Left" Margin="388,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
-        <Button Background="Black" HorizontalAlignment="Left" Margin="437,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
-        <Button Background="Black" HorizontalAlignment="Left" Margin="588,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
-        <Button Background="Black" HorizontalAlignment="Left" Margin="637,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
-        <Button Background="Black" HorizontalAlignment="Left" Margin="688,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
-        <Button Background="Black" HorizontalAlignment="Left" Margin="788,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
-        <Button Background="Black" HorizontalAlignment="Left" Margin="837,0,0,0" VerticalAlignment="Top" Width="25" Height="250"/>
+        Title="MainWindow" Height="420" Width="857">
+    <Grid Margin="0,0,2,0" Height="388" VerticalAlignment="Top">
+        <Button Name="C1" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="389" Click="C1_Sound"/>
+        <Button Name="D1" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="50,0,0,0" Height="389" Click="D1_Sound"/>
+        <Button Name="E1" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="100,0,0,0" Height="389" Click="E1_Click"/>
+        <Button Name="F1" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="150,0,0,0" Height="389" Click="F1_Click"/>
+        <Button Name="G1" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="200,0,0,0" Height="389" Click="G1_Click"/>
+        <Button Name="A1" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="250,0,0,0" Height="389" Click="A1_Click"/>
+        <Button Name="B1" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="300,0,0,0" Height="389" Click="B1_Click"/>
+        <Button Name="C2" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="350,0,0,0" Height="389" Click="C2_Click"/>
+        <Button Name="D2" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="400,0,0,0" Height="389" Click="D2_Click"/>
+        <Button Name="E2" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="450,0,0,0" Height="389" Click="E2_Click"/>
+        <Button Name="F2" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="500,0,0,0" Height="389" Click="F2_Click"/>
+        <Button Name="G2" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="550,0,0,0" Height="389" Click="G2_Click"/>
+        <Button Name="A2" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="600,0,0,0" Height="389"/>
+        <Button Name="B2" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="650,0,0,0" Height="389"/>
+        <Button Name="C3" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="700,0,0,0" Height="389" Click="C3_Click"/>
+        <Button Name="D3" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="750,0,0,0" Height="389" Click="D3_Click"/>
+        <Button Name="E3" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="800,0,-3,0" Height="389" Click="E3_Click"/>
+        <Button Name="CSharp1" Background="Black" HorizontalAlignment="Left" Margin="38,0,0,0" VerticalAlignment="Top" Width="25" Height="243" Click="C_Sharp_1"/>
+        <Button Name="DSharp1" Background="Black" HorizontalAlignment="Left" Margin="87,0,0,0" VerticalAlignment="Top" Width="25" Height="243" Click="DSharp1_Click"/>
+        <Button Name="FSharp1" Background="Black" HorizontalAlignment="Left" Margin="187,0,0,0" VerticalAlignment="Top" Width="25" Height="243" Click="FSharp1_Click"/>
+        <Button Name="GSharp1" Background="Black" HorizontalAlignment="Left" Margin="237,0,0,0" VerticalAlignment="Top" Width="25" Height="243" Click="GSharp1_Click"/>
+        <Button Name="ASharp1" Background="Black" HorizontalAlignment="Left" Margin="288,0,0,0" VerticalAlignment="Top" Width="25" Height="243" Click="ASharp1_Click"/>
+        <Button Name="CSharp2" Background="Black" HorizontalAlignment="Left" Margin="388,0,0,0" VerticalAlignment="Top" Width="25" Height="243"/>
+        <Button Name="DSharp2" Background="Black" HorizontalAlignment="Left" Margin="437,0,0,0" VerticalAlignment="Top" Width="25" Height="243" Click="DSharp2_Click"/>
+        <Button Name="FSharp2" Background="Black" HorizontalAlignment="Left" Margin="538,0,0,0" VerticalAlignment="Top" Width="25" Height="243" Click="FSharp2_Click"/>
+        <Button Name="GSharp2" Background="Black" HorizontalAlignment="Left" Margin="587,0,0,0" VerticalAlignment="Top" Width="25" Height="243" Click="GSharp2_Click"/>
+        <Button Name="ASharp2" Background="Black" HorizontalAlignment="Left" Margin="638,0,0,0" VerticalAlignment="Top" Width="25" Height="243" Click="ASharp2_Click"/>
+        <Button Name="CSharp3" Background="Black" HorizontalAlignment="Left" Margin="738,0,0,0" VerticalAlignment="Top" Width="25" Height="243"/>
+        <Button Name="DSharp3" Background="Black" HorizontalAlignment="Left" Margin="787,0,0,0" VerticalAlignment="Top" Width="25" Height="243"/>
         
     </Grid>
 </Window>

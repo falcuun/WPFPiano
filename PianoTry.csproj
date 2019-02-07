@@ -94,5 +94,87 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.A4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.A5.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.Ab3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.B4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.B5.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.Bb3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.C4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.C5.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.C6.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.D4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.D5.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.D6.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.Db3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.Db4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.Db5.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.E4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.E5.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.E6.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.Eb3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.Eb4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.Eb5.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.F3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.F4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.G4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.G5.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.Gb3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piano.pp.Gb4.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
